@@ -1,7 +1,6 @@
 import express from "express";
 import authRoutes from "./routes/authRoutes"
 import cors from "cors"
-import { sampleMiddleware } from "./middlewares/sampleMiddleWare";
 import mongoose from "mongoose";
 import dotenv from "dotenv"
 dotenv.config()
