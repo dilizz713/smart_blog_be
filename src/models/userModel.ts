@@ -12,7 +12,7 @@ export enum Status{
     REJECTED = "REJECTED" 
 }
 
-interface IUser extends Document{
+export interface IUser extends Document{
     _id : mongoose.Types.ObjectId
     firstName : string
     lastName : string
